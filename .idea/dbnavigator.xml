@@ -17,6 +17,7 @@
       <assistant-state connection-id="716005ba-bd79-4fab-9d10-462a21beee46" default-profile-name="" selected-conversation-id="" assistant-type="GENERIC" availability="UNAVAILABLE" acknowledgement="NONE">
         <conversations />
       </assistant-state>
+
     </assistants>
   </component>
   <component name="DBNavigator.Project.DatabaseBrowserManager">
@@ -25,6 +26,7 @@
     <show-object-properties value="true" />
     <loaded-nodes />
   </component>
+
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="716005ba-bd79-4fab-9d10-462a21beee46">
       <console name="Connection" type="STANDARD" schema="product" session="Main" />
@@ -36,9 +38,11 @@
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files />
   </component>
+
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="716005ba-bd79-4fab-9d10-462a21beee46" />
   </component>
+
   <component name="DBNavigator.Project.ExecutionManager">
     <retain-sticky-names value="false" />
   </component>
