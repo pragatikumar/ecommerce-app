@@ -1,2 +1,6 @@
-package com.pragati.ecommerce.payment;public interface PaymentRepository {
+package com.pragati.ecommerce.payment;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface PaymentRepository extends JpaRepository<Payment, Integer> {
 }

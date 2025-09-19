@@ -1,2 +1,10 @@
-package com.pragati.ecommerce.product;public record PurchaseResponse() {
+package com.pragati.ecommerce.product;
+
+import java.math.BigDecimal;
+
+public record PurchaseResponse(Integer productId,
+                               String name,
+                               String description,
+                               BigDecimal price,
+                               double quantity) {
 }

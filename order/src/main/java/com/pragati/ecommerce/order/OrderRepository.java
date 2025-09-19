@@ -1,2 +1,8 @@
-package com.pragati.ecommerce.order;public interface OrderRepository {
+package com.pragati.ecommerce.order;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+
+
+public interface OrderRepository extends JpaRepository<Order,Integer> {
 }

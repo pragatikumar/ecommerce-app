@@ -1,2 +1,12 @@
-package com.pragati.ecommerce.order;public record OrderResponse() {
+package com.pragati.ecommerce.order;
+
+import java.math.BigDecimal;
+
+public record OrderResponse(
+        Integer id,
+        String reference,
+        BigDecimal amount,
+        PaymentMethod paymentMethod,
+        String customerId
+) {
 }

@@ -1,2 +1,12 @@
-package com.pragati.ecommerce.exception;public class BusinessException {
+package com.pragati.ecommerce.exception;
+
+
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+
+@EqualsAndHashCode(callSuper = true)
+@Data
+public class BusinessException extends RuntimeException{
+
+    private final String msg;
 }
